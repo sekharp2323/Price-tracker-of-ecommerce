@@ -20,7 +20,7 @@ chrome_options.add_argument('--disable-logging')
 # Initialize the WebDriver with Chrome options
 driver = webdriver.Chrome(options=chrome_options)
 
-driver.get('https://pricehistory.app/')
+driver.get('price tracker website ')
 search_locator = (By.ID, 'search')
 search_element = WebDriverWait(driver, 10).until(EC.presence_of_element_located(search_locator))
 
